@@ -4,10 +4,10 @@
 Concurrent event scheduling and processing.
 
 ## frayme/pineapple
-Asynchronous method invokation modifiers.
+Generic utilities used in wCL.
 
 ## frayme/strawberry
-Generic utilities.
+Asynchronous method invokation modifiers.
 
 ## frayme/lemon
 Math!
