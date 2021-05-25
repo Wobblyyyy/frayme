@@ -4,16 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40755ff3-95e3-4b67-a0d2-5e6a74007279" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/Conditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/ConditionalEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/EventExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/PredicatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/conditions/IntRangeConditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/conditions/RangeConditional.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/conditions/TimeConditional.java" afterDir="false" />
+    <list default="true" id="40755ff3-95e3-4b67-a0d2-5e6a74007279" name="Default Changelist" comment="c">
+      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/time/Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cherry/src/frayme/cherry/time/TimeUnit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cherry/src/frayme/cherry/event/ConditionalEvent.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +32,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -60,15 +56,13 @@
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,8 +77,17 @@
       <option name="presentableId" value="Default" />
       <updated>1621888413933</updated>
       <workItem from="1621888416353" duration="2119000" />
-      <workItem from="1621892467668" duration="478000" />
+      <workItem from="1621892467668" duration="502000" />
+      <workItem from="1621900324807" duration="1540000" />
     </task>
+    <task id="LOCAL-00001" summary="c">
+      <created>1621892964960</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621892964960</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,5 +104,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
   </component>
 </project>
