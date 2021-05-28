@@ -52,40 +52,36 @@ public class Time {
     }
 
     /**
-     * @see Time#fromNow(double, TimeUnit)
-     *
      * @param time milliseconds.
      * @return time from now, milliseconds.
+     * @see Time#fromNow(double, TimeUnit)
      */
     public static double millisecondsFromNow(double time) {
         return fromNow(time, TimeUnit.MS);
     }
 
     /**
-     * @see Time#fromNow(double, TimeUnit)
-     *
      * @param time seconds.
      * @return time from now, milliseconds.
+     * @see Time#fromNow(double, TimeUnit)
      */
     public static double secondsFromNow(double time) {
         return fromNow(time, TimeUnit.S);
     }
 
     /**
-     * @see Time#fromNow(double, TimeUnit)
-     *
      * @param time minutes.
      * @return time from now, milliseconds.
+     * @see Time#fromNow(double, TimeUnit)
      */
     public static double minutesFromNow(double time) {
         return fromNow(time, TimeUnit.M);
     }
 
     /**
-     * @see Time#fromNow(double, TimeUnit)
-     *
      * @param time hours.
      * @return time from now, milliseconds.
+     * @see Time#fromNow(double, TimeUnit)
      */
     public static double hoursFromNow(double time) {
         return fromNow(time, TimeUnit.H);
